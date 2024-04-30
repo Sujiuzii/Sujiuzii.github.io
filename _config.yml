@@ -33,9 +33,11 @@ dash:
   avatar_path: /public/madeline.gif
 
 # Build settings
-theme: jekyll-dash
+# theme: jekyll-dash
+remote_theme: bitbrain/jekyll-dash@v2.4.1
 
 plugins:
+  - jekyll-remote-theme
   - liquid-md5
   - jekyll/tagging
 
