@@ -1,0 +1,42 @@
+title: 苏绘的博客小屋
+url: https://sujiuzii.github.io
+author: 苏绘
+email: sujiuzii@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  苏绘的博客小屋，记录生活，分享技术，欢迎来访！
+  <br>Happy coding! Happy life!
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: sujiuzii-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://github.com/sujiuzii
+      icon: github-square
+      color: yellow
+      
+  avatar_source: local
+  avatar_path: /public/madeline.gif
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+  - liquid-md5
+  - jekyll/tagging
+
+
